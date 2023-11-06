@@ -145,7 +145,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   '''Recognized words:
               $_lastWords''',
-                  style: TextStyle(fontSize: 20.0),
+                  style: const TextStyle(fontSize: 20.0),
                   textAlign: TextAlign.center,
                 ),
               ),
